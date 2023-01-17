@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+</head>
+<body>
+	<form action="/SuperBasicWeb/radioResult.do" method="get">
+		성별: 
+		<input type="radio" name="gender" id="female" value="F"> 
+		<label for="female">여자</label>
+		
+		<input type="radio" name="gender" id="male" value="M"> 
+		<label for="male">남자</label><br>
+		메일정보 수신여부: 
+		<label>
+			<input type="radio" name="chk-mail" id="" value="yes">수신 
+		</label>
+		<label>
+			<input type="radio" name="chk-mail" id="" value="no">거부<br>
+		</label>
+		<input type="submit" value="전송">
+		<input type="reset" value="초기화">
+	</form>
+</body>
+</html>
